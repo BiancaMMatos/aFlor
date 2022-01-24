@@ -12,15 +12,16 @@ struct CameraView: View {
     @State private var showImagePicker: Bool = false
     @State private var sourceType: UIImagePickerController.SourceType = .camera
     @State private var image: UIImage?
-    @State private var isAnalysisOpen: Bool = false
+    @State var isAnalysisOpen: Bool = false
     
     
     var body: some View {
+    
         NavigationView {
             VStack {
                 Image(uiImage: image ?? UIImage(named: "Logo_01")!)
                     .resizable()
-                    .frame(width: 300, height: 300)
+                    .frame(width: 350, height: 350)
                     .cornerRadius(13)
                     .shadow(radius: 20)
                 Button(action: {

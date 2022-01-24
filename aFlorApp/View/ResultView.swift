@@ -11,25 +11,42 @@ struct ResultView: View {
     
     //@StateObject var vm = CacheViewModel()
     //@State private var image: UIImage?
+    @Environment(\.dismiss) var dismiss
+    
     
     var body: some View {
         NavigationView {
             VStack {
                 if let image = CacheManager.instance.get(name: "foto_teste"){
+
                     Image(uiImage: image)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 200, height: 200)
+                        .frame(width: 350, height: 350)
                         .clipped()
-                        .cornerRadius(10)
+                        .cornerRadius(13)
+                    
                     Spacer()
+                    
                 }
+                Text("Isso é ")
+                Spacer()
+                Text("Procure mais sobre ela no Catálogo!")
+                Spacer()
             }
-            
+            .toolbar(content: {
+                Button(action: {
+                    dismiss()
+                }, label: {
+                    Text("Fechar")
+                })
+            })
         }
         
     }
+    
 }
+
 
 
 struct ResultView_Previews: PreviewProvider {

@@ -19,7 +19,7 @@ struct RecentsView: View {
             VStack {
                 Image(uiImage: image ?? UIImage(named: "Logo_01")!)
                     .resizable()
-                    .frame(width: 300, height: 300)
+                    .frame(width: 350, height: 350)
                     .cornerRadius(13)
                     .shadow(radius: 20)
                 
