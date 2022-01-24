@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A608B72727989CD4001CF4E6 /* orchid.json in Resources */ = {isa = PBXBuildFile; fileRef = A608B72627989CD4001CF4E6 /* orchid.json */; };
+		A63D67FA2795BBEA0047C2A7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D67F92795BBEA0047C2A7 /* CameraView.swift */; };
+		A63D6842279603370047C2A7 /* TabViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D6841279603370047C2A7 /* TabViewMenu.swift */; };
+		A63D684427961A260047C2A7 /* RecentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D684327961A260047C2A7 /* RecentsView.swift */; };
+		A658DEB12791F3740046F75A /* aFlorAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658DEB02791F3740046F75A /* aFlorAppApp.swift */; };
+		A658DEB32791F3740046F75A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658DEB22791F3740046F75A /* ContentView.swift */; };
+		A658DEB52791F3750046F75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A658DEB42791F3750046F75A /* Assets.xcassets */; };
+		A658DEB82791F3750046F75A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A658DEB72791F3750046F75A /* Preview Assets.xcassets */; };
+		A66344B6279AD2F90054B44C /* TutorialDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66344B5279AD2F90054B44C /* TutorialDetail.swift */; };
+		A6A4218E279A02A0007A35A0 /* OrchidDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4218D279A02A0007A35A0 /* OrchidDetailRow.swift */; };
+		A6A42190279A1B9C007A35A0 /* TutorialRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4218F279A1B9C007A35A0 /* TutorialRow.swift */; };
+		A6A42195279A2FDB007A35A0 /* tutorial.json in Resources */ = {isa = PBXBuildFile; fileRef = A6A42194279A2FDB007A35A0 /* tutorial.json */; };
+		A6A42197279A301F007A35A0 /* TutorialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A42196279A301F007A35A0 /* TutorialModel.swift */; };
+		A6AC80E52798D48C0093778B /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AC80E42798D48C0093778B /* ResultView.swift */; };
+		A6B78353279885AE0005A613 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B78352279885AE0005A613 /* ModelData.swift */; };
+		A6B78355279886C20005A613 /* RectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B78354279886C20005A613 /* RectangleImage.swift */; };
+		A6B78357279887370005A613 /* OrchidDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B78356279887370005A613 /* OrchidDetail.swift */; };
+		A6B7835A2798879D0005A613 /* OrchidRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B783592798879D0005A613 /* OrchidRow.swift */; };
+		A6B7835C279887F00005A613 /* OrchidList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B7835B279887F00005A613 /* OrchidList.swift */; };
+		A6B81618279976FC00E7783C /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B81617279976FC00E7783C /* Tutorial.swift */; };
+		A6B8161A2799A6ED00E7783C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B816192799A6ED00E7783C /* ImagePicker.swift */; };
+		A6C39D702797198B00145EDE /* Orchid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C39D6F2797198B00145EDE /* Orchid.swift */; };
+		A6C39D7427972BEA00145EDE /* OnBoardingStateFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C39D7327972BEA00145EDE /* OnBoardingStateFetcher.swift */; };
+		A6F2D923279B7B880076CDE7 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2D922279B7B880076CDE7 /* CacheManager.swift */; };
+		A6F2D926279B7C750076CDE7 /* View+saveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2D925279B7C750076CDE7 /* View+saveImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A608B72627989CD4001CF4E6 /* orchid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = orchid.json; path = "../../../../Mini Challenge 05/orchid.json"; sourceTree = "<group>"; };
+		A63D67F92795BBEA0047C2A7 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A63D6841279603370047C2A7 /* TabViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMenu.swift; sourceTree = "<group>"; };
+		A63D684327961A260047C2A7 /* RecentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsView.swift; sourceTree = "<group>"; };
+		A658DEAD2791F3740046F75A /* aFlor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aFlor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A658DEB02791F3740046F75A /* aFlorAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aFlorAppApp.swift; sourceTree = "<group>"; };
+		A658DEB22791F3740046F75A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A658DEB42791F3750046F75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A658DEB72791F3750046F75A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A66344B5279AD2F90054B44C /* TutorialDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialDetail.swift; sourceTree = "<group>"; };
+		A6A4218D279A02A0007A35A0 /* OrchidDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchidDetailRow.swift; sourceTree = "<group>"; };
+		A6A4218F279A1B9C007A35A0 /* TutorialRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialRow.swift; sourceTree = "<group>"; };
+		A6A42194279A2FDB007A35A0 /* tutorial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial.json; sourceTree = "<group>"; };
+		A6A42196279A301F007A35A0 /* TutorialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialModel.swift; sourceTree = "<group>"; };
+		A6AC80E42798D48C0093778B /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		A6B78352279885AE0005A613 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		A6B78354279886C20005A613 /* RectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleImage.swift; sourceTree = "<group>"; };
+		A6B78356279887370005A613 /* OrchidDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchidDetail.swift; sourceTree = "<group>"; };
+		A6B783592798879D0005A613 /* OrchidRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchidRow.swift; sourceTree = "<group>"; };
+		A6B7835B279887F00005A613 /* OrchidList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchidList.swift; sourceTree = "<group>"; };
+		A6B81617279976FC00E7783C /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		A6B816192799A6ED00E7783C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A6C39D6F2797198B00145EDE /* Orchid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orchid.swift; sourceTree = "<group>"; };
+		A6C39D7327972BEA00145EDE /* OnBoardingStateFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStateFetcher.swift; sourceTree = "<group>"; };
+		A6F2D922279B7B880076CDE7 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		A6F2D925279B7C750076CDE7 /* View+saveImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+saveImage.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A658DEAA2791F3740046F75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A658DEA42791F3740046F75A = {
+			isa = PBXGroup;
+			children = (
+				A658DEAF2791F3740046F75A /* aFlorApp */,
+				A658DEAE2791F3740046F75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A658DEAE2791F3740046F75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A658DEAD2791F3740046F75A /* aFlor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A658DEAF2791F3740046F75A /* aFlorApp */ = {
+			isa = PBXGroup;
+			children = (
+				A6F2D924279B7C200076CDE7 /* Extension */,
+				A6B7833E27983D5E0005A613 /* ViewModel */,
+				A6C39D7827973FF600145EDE /* Model */,
+				A6C39D7727973FEA00145EDE /* View */,
+				A6C39D792797404100145EDE /* Resources */,
+				A658DEB02791F3740046F75A /* aFlorAppApp.swift */,
+				A658DEB42791F3750046F75A /* Assets.xcassets */,
+				A658DEB62791F3750046F75A /* Preview Content */,
+			);
+			path = aFlorApp;
+			sourceTree = "<group>";
+		};
+		A658DEB62791F3750046F75A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A658DEB72791F3750046F75A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6A42193279A2D5E007A35A0 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4218F279A1B9C007A35A0 /* TutorialRow.swift */,
+				A66344B5279AD2F90054B44C /* TutorialDetail.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		A6B7833E27983D5E0005A613 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A6B81617279976FC00E7783C /* Tutorial.swift */,
+				A6C39D7327972BEA00145EDE /* OnBoardingStateFetcher.swift */,
+				A6B816192799A6ED00E7783C /* ImagePicker.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A6B7834D27987B590005A613 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				A6B78354279886C20005A613 /* RectangleImage.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		A6B78358279887640005A613 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				A6B78356279887370005A613 /* OrchidDetail.swift */,
+				A6A4218D279A02A0007A35A0 /* OrchidDetailRow.swift */,
+				A6B783592798879D0005A613 /* OrchidRow.swift */,
+				A6B7835B279887F00005A613 /* OrchidList.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		A6B7835D2798884A0005A613 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A63D67F92795BBEA0047C2A7 /* CameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A6B7835E2798887C0005A613 /* Recents */ = {
+			isa = PBXGroup;
+			children = (
+				A63D684327961A260047C2A7 /* RecentsView.swift */,
+			);
+			path = Recents;
+			sourceTree = "<group>";
+		};
+		A6C39D7727973FEA00145EDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A63D6841279603370047C2A7 /* TabViewMenu.swift */,
+				A6AC80E42798D48C0093778B /* ResultView.swift */,
+				A658DEB22791F3740046F75A /* ContentView.swift */,
+				A6A42193279A2D5E007A35A0 /* Tutorial */,
+				A6B7835E2798887C0005A613 /* Recents */,
+				A6B7835D2798884A0005A613 /* Camera */,
+				A6B78358279887640005A613 /* Catalog */,
+				A6B7834D27987B590005A613 /* Shapes */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6C39D7827973FF600145EDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6C39D6F2797198B00145EDE /* Orchid.swift */,
+				A6B78352279885AE0005A613 /* ModelData.swift */,
+				A6A42196279A301F007A35A0 /* TutorialModel.swift */,
+				A6F2D922279B7B880076CDE7 /* CacheManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6C39D792797404100145EDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6A42194279A2FDB007A35A0 /* tutorial.json */,
+				A608B72627989CD4001CF4E6 /* orchid.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6F2D924279B7C200076CDE7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A6F2D925279B7C750076CDE7 /* View+saveImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A658DEAC2791F3740046F75A /* aFlor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A658DEBB2791F3750046F75A /* Build configuration list for PBXNativeTarget "aFlor" */;
+			buildPhases = (
+				A658DEA92791F3740046F75A /* Sources */,
+				A658DEAA2791F3740046F75A /* Frameworks */,
+				A658DEAB2791F3740046F75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aFlor;
+			productName = aFlorApp;
+			productReference = A658DEAD2791F3740046F75A /* aFlor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A658DEA52791F3740046F75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A658DEAC2791F3740046F75A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A658DEA82791F3740046F75A /* Build configuration list for PBXProject "aFlor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A658DEA42791F3740046F75A;
+			productRefGroup = A658DEAE2791F3740046F75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A658DEAC2791F3740046F75A /* aFlor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A658DEAB2791F3740046F75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A608B72727989CD4001CF4E6 /* orchid.json in Resources */,
+				A6A42195279A2FDB007A35A0 /* tutorial.json in Resources */,
+				A658DEB82791F3750046F75A /* Preview Assets.xcassets in Resources */,
+				A658DEB52791F3750046F75A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A658DEA92791F3740046F75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C39D702797198B00145EDE /* Orchid.swift in Sources */,
+				A658DEB32791F3740046F75A /* ContentView.swift in Sources */,
+				A6AC80E52798D48C0093778B /* ResultView.swift in Sources */,
+				A63D67FA2795BBEA0047C2A7 /* CameraView.swift in Sources */,
+				A6C39D7427972BEA00145EDE /* OnBoardingStateFetcher.swift in Sources */,
+				A6B78357279887370005A613 /* OrchidDetail.swift in Sources */,
+				A6B78355279886C20005A613 /* RectangleImage.swift in Sources */,
+				A6B7835A2798879D0005A613 /* OrchidRow.swift in Sources */,
+				A6A42197279A301F007A35A0 /* TutorialModel.swift in Sources */,
+				A6F2D926279B7C750076CDE7 /* View+saveImage.swift in Sources */,
+				A658DEB12791F3740046F75A /* aFlorAppApp.swift in Sources */,
+				A6B81618279976FC00E7783C /* Tutorial.swift in Sources */,
+				A6B78353279885AE0005A613 /* ModelData.swift in Sources */,
+				A6B7835C279887F00005A613 /* OrchidList.swift in Sources */,
+				A63D6842279603370047C2A7 /* TabViewMenu.swift in Sources */,
+				A6A4218E279A02A0007A35A0 /* OrchidDetailRow.swift in Sources */,
+				A6B8161A2799A6ED00E7783C /* ImagePicker.swift in Sources */,
+				A6F2D923279B7B880076CDE7 /* CacheManager.swift in Sources */,
+				A63D684427961A260047C2A7 /* RecentsView.swift in Sources */,
+				A66344B6279AD2F90054B44C /* TutorialDetail.swift in Sources */,
+				A6A42190279A1B9C007A35A0 /* TutorialRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A658DEB92791F3750046F75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A658DEBA2791F3750046F75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A658DEBC2791F3750046F75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aFlorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = JJ7A9ZQ7BD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Sua câmera é necessária para tirar foto das orquídeas.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Você poderá utilizar uma foto salva em sua biblioteca de fotos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biancamaciel.aFlorApp;
+				PRODUCT_NAME = aFlor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A658DEBD2791F3750046F75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"aFlorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = JJ7A9ZQ7BD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Sua câmera é necessária para tirar foto das orquídeas.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Você poderá utilizar uma foto salva em sua biblioteca de fotos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biancamaciel.aFlorApp;
+				PRODUCT_NAME = aFlor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A658DEA82791F3740046F75A /* Build configuration list for PBXProject "aFlor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A658DEB92791F3750046F75A /* Debug */,
+				A658DEBA2791F3750046F75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A658DEBB2791F3750046F75A /* Build configuration list for PBXNativeTarget "aFlor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A658DEBC2791F3750046F75A /* Debug */,
+				A658DEBD2791F3750046F75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A658DEA52791F3740046F75A /* Project object */;
+}

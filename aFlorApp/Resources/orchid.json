@@ -1,0 +1,92 @@
+[
+    {
+        "id": 0,
+        "nome": "Phalaenopsis amabalis",
+        "descricao": "Amabilis significa 'encantador', esta orquídea é de origem asiática e habita locais com altitudes superiores à 600 metros!",
+        "floracao": "Ocorre nas estações de verão e suas flores chegam a permanecer abertas de 45 até 60 dias. ",
+        "sol": "Apreciam clima quente e úmido, mas preferem sombreamentos de 70% de retenção dos raios solares diretos sobre ela.",
+        "agua": "3 a 4 vezes por semana na estação do Verão e de 1 a 2 vezes por semana durante o Inverno.",
+        "imagem": "orquidea-phalaenopsis-amabalis"
+    },
+    {
+        "id": 1,
+        "nome": "Phalaenopsis schilleriana",
+        "descricao": "Ela é conhecida como 'orquídea mariposa' devido o formato de suas flores!",
+        "floracao": "Costuma ocorrer uma vez ao ano, no início da primavera.",
+        "sol": "Aprecia um ambiente com temperaturas amenas, tipicamente encontradas em interiores. Porém, quando chega o outono, e ao longo de todo o inverno, ela precisa sentir uma queda de temperatura, com noites mais frias",
+        "agua": "As regas devem ser moderadas, ocorrendo somente quando o substrato estiver bem seco - os vasos ficarão mais leves. Durante o outono e inverno, a frequência das regas deve ser reduzida.",
+        "imagem": "orquidea-phalaenopsis-schilleriana"
+    },
+    {
+        "id": 2,
+        "nome": "Phalaenopsis Blume",
+        "descricao": "Branco",
+        "floracao": "Ocorre com maior frequência na época de inverno.",
+        "sol": "Prefere um ponto quente com bom fluxo de ar.Temperatura entre 18ºC - 24ºC.",
+        "agua": "Idealmente no período da manhã ou à noite.",
+        "imagem": "phalaenopsis-blume"
+    },
+    {
+        "id": 3,
+        "nome": "Cattleya intermediária",
+        "descricao": "Branco",
+        "floracao": "blabla",
+        "sol": "mnmnm",
+        "agua": "jkjhk",
+        "imagem": "orquidea-cattleya-intermediaria"
+    },
+    {
+        "id": 4,
+        "nome": "Sapatinho",
+        "descricao": "Branco",
+        "floracao": "blabla",
+        "sol": "mnmnm",
+        "agua": "jkjhk",
+        "imagem": "orquidea-sapatinho"
+    },
+    {
+        "id": 5,
+        "nome": "Sharry-baby ",
+        "descricao": "Branco",
+        "floracao": "blabla",
+        "sol": "mnmnm",
+        "agua": "jkjhk",
+        "imagem": "orquidea-sharry-baby"
+    },
+    {
+        "id": 6,
+        "nome": "Oncidium",
+        "descricao": "Branco",
+        "floracao": "blabla",
+        "sol": "mnmnm",
+        "agua": "jkjhk",
+        "imagem": "orquidea-oncidium"
+    },
+    {
+        "id": 7,
+        "nome": "Cymbidium",
+        "descricao": "Branco",
+        "floracao": "blabla",
+        "sol": "mnmnm",
+        "agua": "jkjhk",
+        "imagem": "orquidea-cymbidium"
+    },
+    {
+        "id": 8,
+        "nome": "Dendrobium",
+        "descricao": "Branco",
+        "floracao": "blabla",
+        "sol": "mnmnm",
+        "agua": "jkjhk",
+        "imagem": "orquidea-Dendrobium"
+    },
+    {
+        "id": 9,
+        "nome": "Denphal",
+        "descricao": "Branco",
+        "floracao": "blabla",
+        "sol": "mnmnm",
+        "agua": "jkjhk",
+        "imagem": "orquidea-denphal"
+    }
+]

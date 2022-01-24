@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "categoria": "Catálogo",
+        "descricao": "Explore o catálogo de orquídeas e suas principais características.",
+        "icone": "book.fill"
+    },
+    {
+        "id": 1,
+        "categoria": "Câmera",
+        "descricao": "Capture imagens das orquídeas para descobrir mais sobre elas.",
+        "icone": "camera.fill"
+    },
+    {
+        "id": 2,
+        "categoria": "Recentes",
+        "descricao": "Pesquise as características de uma imagem já salva.",
+        "icone": "clock.fill"
+    }
+]
