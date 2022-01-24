@@ -14,7 +14,7 @@ struct OrchidDetail: View {
     
     var body: some View {
         ScrollView {
-            RectangleImage(image: orchid.imagem)
+            RectangleImage(image: orchid.image)
                 .offset(y: -10)
                 .padding()
                 .frame(height:300)

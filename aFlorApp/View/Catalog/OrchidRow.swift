@@ -12,7 +12,7 @@ struct OrchidRow: View {
 
     var body: some View {
         HStack {
-            orchid.imagem
+            orchid.image
                 .resizable()
                 .frame(width: 50, height: 50)
             Text(orchid.nome)

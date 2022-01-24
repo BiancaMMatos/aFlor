@@ -10,9 +10,9 @@ struct Orchid: Codable, Identifiable, Hashable {
     var sol: String
     var agua: String
     
-    private var imageName: String
-    var imagem: Image {
-        Image(imageName)
+    private var imagem: String
+    var image: Image {
+        Image(imagem)
     }
 
 }
