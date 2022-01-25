@@ -22,17 +22,20 @@ struct ResultView: View {
                     Image(uiImage: image)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 350, height: 350)
+                        .frame(width: 350, height: 300)
                         .clipped()
                         .cornerRadius(13)
                     
                     Spacer()
                     
+                    Text("Isso é ")
+                    Spacer()
+                    Text("Procure mais sobre ela no Catálogo!")
+                    Spacer()
                 }
-                Text("Isso é ")
-                Spacer()
-                Text("Procure mais sobre ela no Catálogo!")
-                Spacer()
+                else {
+                    Text("Não há imagem para análise.")
+                }
             }
             .toolbar(content: {
                 Button(action: {

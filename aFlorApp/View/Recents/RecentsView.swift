@@ -17,7 +17,7 @@ struct RecentsView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Image(uiImage: image ?? UIImage(named: "Logo_01")!)
+                Image(uiImage: image ?? UIImage(named: "tela_orquidea")!)
                     .resizable()
                     .frame(width: 350, height: 350)
                     .cornerRadius(13)

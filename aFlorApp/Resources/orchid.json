@@ -11,25 +11,25 @@
     {
         "id": 1,
         "nome": "Phalaenopsis schilleriana",
-        "descricao": "Ela é conhecida como 'orquídea mariposa' devido o formato de suas flores!",
-        "floracao": "Costuma ocorrer uma vez ao ano, no início da primavera.",
+        "descricao": "A espécie é nativa das Filipinas e ela atinge até 50 cm de altura!",
+        "floracao": "Ocorre durante a primavera e o verão, trazendo flores bastante perfumadas e que duram até 4 semanas.",
         "sol": "Aprecia um ambiente com temperaturas amenas, tipicamente encontradas em interiores. Porém, quando chega o outono, e ao longo de todo o inverno, ela precisa sentir uma queda de temperatura, com noites mais frias",
         "agua": "As regas devem ser moderadas, ocorrendo somente quando o substrato estiver bem seco - os vasos ficarão mais leves. Durante o outono e inverno, a frequência das regas deve ser reduzida.",
         "imagem": "orquidea-phalaenopsis-schilleriana"
     },
     {
         "id": 2,
-        "nome": "Phalaenopsis Blume",
-        "descricao": "Branco",
-        "floracao": "Ocorre com maior frequência na época de inverno.",
+        "nome": "Phalaenopsis gigantea",
+        "descricao": "É uma espécie de porte grande, com folhas gigantes e que podem atingir até 2 metros!",
+        "floracao": "Costuma acontecer durante o verão, trazendo flores perfumadas e de longa duração.",
         "sol": "Prefere um ponto quente com bom fluxo de ar.Temperatura entre 18ºC - 24ºC.",
         "agua": "Idealmente no período da manhã ou à noite.",
-        "imagem": "phalaenopsis-blume"
+        "imagem": "orquidea-Phalaenopsis -gigantea"
     },
     {
         "id": 3,
         "nome": "Cattleya intermediária",
-        "descricao": "Branco",
+        "descricao": "Ela é nativa do Brasil, sendo encontrada principalmente no Sul.",
         "floracao": "blabla",
         "sol": "mnmnm",
         "agua": "jkjhk",
@@ -37,8 +37,8 @@
     },
     {
         "id": 4,
-        "nome": "Sapatinho",
-        "descricao": "Branco",
+        "nome": "Paphiopedilum",
+        "descricao": "Também é conhecida como 'Sapatinho' por causa do seu formato :)",
         "floracao": "blabla",
         "sol": "mnmnm",
         "agua": "jkjhk",
@@ -46,8 +46,8 @@
     },
     {
         "id": 5,
-        "nome": "Sharry-baby ",
-        "descricao": "Branco",
+        "nome": "Oncidium Sharry Baby ",
+        "descricao": "Ela é muito conhecida popularmente como 'Chocolate'.",
         "floracao": "blabla",
         "sol": "mnmnm",
         "agua": "jkjhk",
@@ -55,8 +55,8 @@
     },
     {
         "id": 6,
-        "nome": "Oncidium",
-        "descricao": "Branco",
+        "nome": "Oncidium varicosum",
+        "descricao": "É a espécide de Oncidium mais conhecida no Brasil, também é conhecida como 'Chuva de Ouro'!",
         "floracao": "blabla",
         "sol": "mnmnm",
         "agua": "jkjhk",
@@ -65,19 +65,19 @@
     {
         "id": 7,
         "nome": "Cymbidium",
-        "descricao": "Branco",
-        "floracao": "blabla",
-        "sol": "mnmnm",
-        "agua": "jkjhk",
+        "descricao": "Por ter origem em países como a China, Índia, Sri Lanka, Nepal, Malásia, Filipinas e Austrália, essa flor tem como habitat natural altitudes mais elevadas. Por isso, ela se adapta melhor a regiões com um clima mais frio!",
+        "floracao": "Ocorre predominantemente no inverno,",
+        "sol": "Exigem uma queda de temperatura entre o final do verão e o início de outono para florescer durante o inverno.",
+        "agua": "Regar a planta com água gelada, principalmente à noite, ou adicionar cubos de gelo ao vaso, para tentar simular esta queda de temperatura, durante o outono e inverno",
         "imagem": "orquidea-cymbidium"
     },
     {
         "id": 8,
         "nome": "Dendrobium",
-        "descricao": "Branco",
-        "floracao": "blabla",
-        "sol": "mnmnm",
-        "agua": "jkjhk",
+        "descricao": "Elas são epífitas, ou seja, crescem em cima das árvores. Por isso, seu nome significa 'planta que vive nas árvores' :)",
+        "floracao": "Inverno até primavera",
+        "sol": "Durante o dia: 20 a 32ºC; Durante a noite: 18ºC a 24ºC.",
+        "agua": "Se ela estiver pendurada em uma árvore, você deve regá-la todos os dias com água em abundância, exceto em dias de chuva. Caso contrário, regue quando o substrato estiver seco.",
         "imagem": "orquidea-Dendrobium"
     },
     {
