@@ -14,6 +14,8 @@ struct CameraView: View {
     @State private var image: UIImage?
     @State var isAnalysisOpen: Bool = false
     
+    @State var isPresentedButton: Bool = false
+    @ObservedObject var classifyViewModel = ClassifyViewModel()
     
     var body: some View {
     
@@ -21,7 +23,7 @@ struct CameraView: View {
             VStack {
                 Image(uiImage: image ?? UIImage(named: "tela_orquidea")!)
                     .resizable()
-                    .frame(width: 350, height: 350)
+                    .frame(width: 350, height: 400)
                     .cornerRadius(13)
                     .shadow(radius: 20)
                 Button(action: {
@@ -40,6 +42,7 @@ struct CameraView: View {
                 Button(action: {
                     saveImage(image:image)
                     isAnalysisOpen.toggle()
+                    classifyViewModel.classifyImage(image: image)
                 }, label: {
                     Text("Analisar")
                         .font(.system(size: 20, weight: .medium, design: .rounded))
@@ -51,7 +54,7 @@ struct CameraView: View {
                 })
                     .offset(y:25)
                     .sheet(isPresented: $isAnalysisOpen) {
-                        ResultView()
+                        ResultView(result: classifyViewModel.resultClassify ?? "erro")
                     }
                 Spacer()
             }
@@ -60,11 +63,11 @@ struct CameraView: View {
         }
         
     }
-
+    
 }
-
-struct CameraView_Previews: PreviewProvider {
-    static var previews: some View {
-        CameraView()
-    }
-}
+//
+//struct CameraView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CameraView()
+//    }
+//}

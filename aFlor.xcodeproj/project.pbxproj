@@ -15,6 +15,7 @@
 		A658DEB52791F3750046F75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A658DEB42791F3750046F75A /* Assets.xcassets */; };
 		A658DEB82791F3750046F75A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A658DEB72791F3750046F75A /* Preview Assets.xcassets */; };
 		A66344B6279AD2F90054B44C /* TutorialDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66344B5279AD2F90054B44C /* TutorialDetail.swift */; };
+		A6806EFC27A1A8310013E6F8 /* ClassifyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6806EFB27A1A8310013E6F8 /* ClassifyImage.swift */; };
 		A69EC173279EE965005CB3FE /* orchid.json in Resources */ = {isa = PBXBuildFile; fileRef = A69EC172279EE965005CB3FE /* orchid.json */; };
 		A6A4218E279A02A0007A35A0 /* OrchidDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4218D279A02A0007A35A0 /* OrchidDetailRow.swift */; };
 		A6A42190279A1B9C007A35A0 /* TutorialRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4218F279A1B9C007A35A0 /* TutorialRow.swift */; };
@@ -28,6 +29,8 @@
 		A6B7835C279887F00005A613 /* OrchidList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B7835B279887F00005A613 /* OrchidList.swift */; };
 		A6B81618279976FC00E7783C /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B81617279976FC00E7783C /* Tutorial.swift */; };
 		A6B8161A2799A6ED00E7783C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B816192799A6ED00E7783C /* ImagePicker.swift */; };
+		A6BDCEC427A035FD000C85C2 /* UIImage+resizeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BDCEC327A035FD000C85C2 /* UIImage+resizeImage.swift */; };
+		A6BDCEC627A03774000C85C2 /* OrchidClassifier_1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A6BDCEC527A03774000C85C2 /* OrchidClassifier_1.mlmodel */; };
 		A6C39D702797198B00145EDE /* Orchid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C39D6F2797198B00145EDE /* Orchid.swift */; };
 		A6C39D7427972BEA00145EDE /* OnBoardingStateFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C39D7327972BEA00145EDE /* OnBoardingStateFetcher.swift */; };
 		A6F2D923279B7B880076CDE7 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2D922279B7B880076CDE7 /* CacheManager.swift */; };
@@ -44,6 +47,7 @@
 		A658DEB42791F3750046F75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A658DEB72791F3750046F75A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A66344B5279AD2F90054B44C /* TutorialDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialDetail.swift; sourceTree = "<group>"; };
+		A6806EFB27A1A8310013E6F8 /* ClassifyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifyImage.swift; sourceTree = "<group>"; };
 		A69EC172279EE965005CB3FE /* orchid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = orchid.json; sourceTree = "<group>"; };
 		A6A4218D279A02A0007A35A0 /* OrchidDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchidDetailRow.swift; sourceTree = "<group>"; };
 		A6A4218F279A1B9C007A35A0 /* TutorialRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialRow.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		A6B7835B279887F00005A613 /* OrchidList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchidList.swift; sourceTree = "<group>"; };
 		A6B81617279976FC00E7783C /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		A6B816192799A6ED00E7783C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A6BDCEC327A035FD000C85C2 /* UIImage+resizeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+resizeImage.swift"; sourceTree = "<group>"; };
+		A6BDCEC527A03774000C85C2 /* OrchidClassifier_1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = OrchidClassifier_1.mlmodel; sourceTree = "<group>"; };
 		A6C39D6F2797198B00145EDE /* Orchid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orchid.swift; sourceTree = "<group>"; };
 		A6C39D7327972BEA00145EDE /* OnBoardingStateFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStateFetcher.swift; sourceTree = "<group>"; };
 		A6F2D922279B7B880076CDE7 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
@@ -93,6 +99,7 @@
 		A658DEAF2791F3740046F75A /* aFlorApp */ = {
 			isa = PBXGroup;
 			children = (
+				A6BDCEC027A0356F000C85C2 /* ML */,
 				A6F2D924279B7C200076CDE7 /* Extension */,
 				A6B7833E27983D5E0005A613 /* ViewModel */,
 				A6C39D7827973FF600145EDE /* Model */,
@@ -128,6 +135,7 @@
 				A6B81617279976FC00E7783C /* Tutorial.swift */,
 				A6C39D7327972BEA00145EDE /* OnBoardingStateFetcher.swift */,
 				A6B816192799A6ED00E7783C /* ImagePicker.swift */,
+				A6806EFB27A1A8310013E6F8 /* ClassifyImage.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -165,6 +173,14 @@
 				A63D684327961A260047C2A7 /* RecentsView.swift */,
 			);
 			path = Recents;
+			sourceTree = "<group>";
+		};
+		A6BDCEC027A0356F000C85C2 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				A6BDCEC527A03774000C85C2 /* OrchidClassifier_1.mlmodel */,
+			);
+			path = ML;
 			sourceTree = "<group>";
 		};
 		A6C39D7727973FEA00145EDE /* View */ = {
@@ -205,6 +221,7 @@
 		A6F2D924279B7C200076CDE7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A6BDCEC327A035FD000C85C2 /* UIImage+resizeImage.swift */,
 				A6F2D925279B7C750076CDE7 /* View+saveImage.swift */,
 			);
 			path = Extension;
@@ -287,10 +304,13 @@
 				A6AC80E52798D48C0093778B /* ResultView.swift in Sources */,
 				A63D67FA2795BBEA0047C2A7 /* CameraView.swift in Sources */,
 				A6C39D7427972BEA00145EDE /* OnBoardingStateFetcher.swift in Sources */,
+				A6BDCEC627A03774000C85C2 /* OrchidClassifier_1.mlmodel in Sources */,
 				A6B78357279887370005A613 /* OrchidDetail.swift in Sources */,
 				A6B78355279886C20005A613 /* RectangleImage.swift in Sources */,
 				A6B7835A2798879D0005A613 /* OrchidRow.swift in Sources */,
 				A6A42197279A301F007A35A0 /* TutorialModel.swift in Sources */,
+				A6806EFC27A1A8310013E6F8 /* ClassifyImage.swift in Sources */,
+				A6BDCEC427A035FD000C85C2 /* UIImage+resizeImage.swift in Sources */,
 				A6F2D926279B7C750076CDE7 /* View+saveImage.swift in Sources */,
 				A658DEB12791F3740046F75A /* aFlorAppApp.swift in Sources */,
 				A6B81618279976FC00E7783C /* Tutorial.swift in Sources */,

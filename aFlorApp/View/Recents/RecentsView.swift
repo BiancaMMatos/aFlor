@@ -14,12 +14,15 @@ struct RecentsView: View {
     @State private var image: UIImage?
     @State private var isAnalysisOpen: Bool = false
     
+    @State var isPresentedButton: Bool = false
+    @ObservedObject var classifyViewModel = ClassifyViewModel()
+    
     var body: some View {
         NavigationView {
             VStack {
                 Image(uiImage: image ?? UIImage(named: "tela_orquidea")!)
                     .resizable()
-                    .frame(width: 350, height: 350)
+                    .frame(width: 350, height: 400)
                     .cornerRadius(13)
                     .shadow(radius: 20)
                 
@@ -41,6 +44,8 @@ struct RecentsView: View {
                 Button(action: {
                     saveImage(image:image)
                     isAnalysisOpen.toggle()
+                    isPresentedButton.toggle()
+                    classifyViewModel.classifyImage(image: image)
                 }, label: {
                     Text("Analisar")
                         .font(.system(size: 20, weight: .medium, design: .rounded))
@@ -51,7 +56,7 @@ struct RecentsView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 13))
                 })
                     .sheet(isPresented: $isAnalysisOpen) {
-                        ResultView()
+                        ResultView(result: classifyViewModel.resultClassify ?? "erro")
                     }
                     .offset(y:25)
                 Spacer()
@@ -64,8 +69,8 @@ struct RecentsView: View {
     }
 }
 
-struct RecentsView_Previews: PreviewProvider {
-    static var previews: some View {
-        RecentsView()
-    }
-}
+//struct RecentsView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RecentsView()
+//    }
+//}

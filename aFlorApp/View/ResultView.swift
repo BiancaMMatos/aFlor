@@ -6,31 +6,40 @@
 //
 
 import SwiftUI
+import CoreML
 
 struct ResultView: View {
     
-    //@StateObject var vm = CacheViewModel()
-    //@State private var image: UIImage?
+    @State var isPresented: Bool = true
+    //@State var classificationLabel: String = ""
     @Environment(\.dismiss) var dismiss
-    
+    var result: String
     
     var body: some View {
         NavigationView {
             VStack {
                 if let image = CacheManager.instance.get(name: "foto_teste"){
-
+                    
                     Image(uiImage: image)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 350, height: 300)
                         .clipped()
                         .cornerRadius(13)
+                        .offset(y:-60)
+                    
+                    VStack {
+                        Text("Aqui estão os resultados:")
+                            
+                            Text(result)
+                                .padding()
+                                .font(.body)
+                    }
+                    .offset(y: -40)
                     
                     Spacer()
                     
-                    Text("Isso é ")
-                    Spacer()
-                    Text("Procure mais sobre ela no Catálogo!")
+                    Text("Procure mais sobre o resultado no Catálogo!")
                     Spacer()
                 }
                 else {
@@ -42,6 +51,7 @@ struct ResultView: View {
                     dismiss()
                 }, label: {
                     Text("Fechar")
+                        .fontWeight(.medium)
                 })
             })
         }
@@ -52,8 +62,8 @@ struct ResultView: View {
 
 
 
-struct ResultView_Previews: PreviewProvider {
-    static var previews: some View {
-        ResultView()
-    }
-}
+//struct ResultView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ResultView(classificationLabel: classificationLabel)
+//    }
+//}
