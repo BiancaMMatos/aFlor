@@ -13,7 +13,7 @@ class ClassifyViewModel: ObservableObject {
     @Published var isLoading: Bool
     @Published var errorMessage: String?
     
-    let model = OrchidClassifier_1()
+    let model = OrchidSpeciesClassifier_1()
 
     
     init(){

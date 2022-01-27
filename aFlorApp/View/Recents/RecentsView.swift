@@ -22,10 +22,11 @@ struct RecentsView: View {
             VStack {
                 Image(uiImage: image ?? UIImage(named: "tela_orquidea")!)
                     .resizable()
-                    .frame(width: 350, height: 400)
+                    .frame(width: 350, height: 450)
                     .cornerRadius(13)
                     .shadow(radius: 20)
-                
+                    .offset(y:-50)
+               
                 Button(action: {
                     self.showImagePicker = true
                     self.sourceType = .photoLibrary
@@ -40,7 +41,7 @@ struct RecentsView: View {
                         .foregroundColor(Color.white)
                         .clipShape(RoundedRectangle(cornerRadius: 13))
                 })
-                    .offset(y: 20)
+                    .offset(y: -20)
                 Button(action: {
                     saveImage(image:image)
                     isAnalysisOpen.toggle()
@@ -55,10 +56,11 @@ struct RecentsView: View {
                         .foregroundColor(Color.white)
                         .clipShape(RoundedRectangle(cornerRadius: 13))
                 })
+                    .offset(y:-15)
                     .sheet(isPresented: $isAnalysisOpen) {
-                        ResultView(result: classifyViewModel.resultClassify ?? "erro")
+                        ResultView(result: classifyViewModel.resultClassify ?? "Adicione uma nova imagem.")
                     }
-                    .offset(y:25)
+                    
                 Spacer()
             }
             

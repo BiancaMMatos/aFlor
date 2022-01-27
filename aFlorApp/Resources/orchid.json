@@ -1,42 +1,69 @@
 [
     {
         "id": 0,
-        "nome": "Phalaenopsis amabalis",
+        "nome": "Cattleya",
         "descricao": "Amabilis significa 'encantador', esta orquídea é de origem asiática e habita locais com altitudes superiores à 600 metros!",
         "floracao": "Ocorre nas estações de verão e suas flores chegam a permanecer abertas de 45 até 60 dias. ",
-        "sol": "Apreciam clima quente e úmido, mas preferem sombreamentos de 70% de retenção dos raios solares diretos sobre ela.",
+        "sol": "Apreciam clima quente e úmido, mas preferem sombra.                                   ",
         "agua": "3 a 4 vezes por semana na estação do Verão e de 1 a 2 vezes por semana durante o Inverno.",
-        "imagem": "orquidea-phalaenopsis-amabalis"
-    },
-    {
-        "id": 1,
-        "nome": "Phalaenopsis schilleriana",
-        "descricao": "A espécie é nativa das Filipinas e ela atinge até 50 cm de altura!",
-        "floracao": "Ocorre durante a primavera e o verão, trazendo flores bastante perfumadas e que duram até 4 semanas.",
-        "sol": "Aprecia um ambiente com temperaturas amenas, tipicamente encontradas em interiores. Porém, quando chega o outono, e ao longo de todo o inverno, ela precisa sentir uma queda de temperatura, com noites mais frias",
-        "agua": "As regas devem ser moderadas, ocorrendo somente quando o substrato estiver bem seco - os vasos ficarão mais leves. Durante o outono e inverno, a frequência das regas deve ser reduzida.",
-        "imagem": "orquidea-phalaenopsis-schilleriana"
-    },
-    {
-        "id": 2,
-        "nome": "Phalaenopsis gigantea",
-        "descricao": "É uma espécie de porte grande, com folhas gigantes e que podem atingir até 2 metros!",
-        "floracao": "Costuma acontecer durante o verão, trazendo flores perfumadas e de longa duração.",
-        "sol": "Prefere um ponto quente com bom fluxo de ar.Temperatura entre 18ºC - 24ºC.",
-        "agua": "Idealmente no período da manhã ou à noite.",
-        "imagem": "orquidea-Phalaenopsis -gigantea"
-    },
-    {
-        "id": 3,
-        "nome": "Cattleya intermediária",
-        "descricao": "Ela é conhecida assim porque suas flores possuem um tamanho intermediário se comparado às outras cattleyas.",
-        "floracao": "E lembre-se que para se estimular a floração, elas precisam de uma queda de temperatura.",
-        "sol": "Essa é uma orquídea que vive em dois locais com temperaturas muito diferentes. Basicamente, você deve fornecer uma temperatura igual ou muito parecida ao ambiente em que elas vivem.",
-        "agua": "Elas são plantas que gostam bastante de um local mais úmido.",
         "imagem": "orquidea-cattleya-intermediaria"
     },
     {
+        "id": 1,
+        "nome": "Cymbidium",
+        "descricao": "Por ter origem em países como a China, Índia, Sri Lanka, Nepal, Malásia, Filipinas e Austrália, essa flor tem como habitat natural altitudes mais elevadas. Por isso, ela se adapta melhor a regiões com um clima mais frio!",
+        "floracao": "Ocorre predominantemente no inverno.                    ",
+        "sol": "Exigem uma queda de temperatura entre o final do verão e o início de outono para florescer durante o inverno.",
+        "agua": "Regar a planta com água gelada, principalmente à noite, ou adicionar cubos de gelo ao vaso, para tentar simular esta queda de temperatura, durante o outono e inverno.",
+        "imagem": "orquidea-cymbidium"
+    },
+    {
+        "id": 2,
+        "nome": "Dendrobium",
+        "descricao": "Elas são epífitas, ou seja, crescem em cima das árvores. Por isso, seu nome significa 'planta que vive nas árvores' :)",
+        "floracao": "Inverno até primavera.                                 ",
+        "sol": "Prefere um ponto quente com bom fluxo de ar.Temperatura entre 18ºC - 24ºC.",
+        "agua": "Durante o dia: 20 a 32ºC; Durante a noite: 18ºC a 24ºC.",
+        "imagem": "orquidea-Dendrobium"
+    },
+    {
+        "id": 3,
+        "nome": "Denphal",
+        "descricao": "Seu nome é apenas um apelido que junta os prefixos “Den” e “Phal”, derivados de duas outras espécies: Dendrobium e Phalaenopsis.",
+        "floracao": "Para mantê-la florindo todos os anos, você deverá reduzir drasticamente as suas regas, durante o outono e inverno, para que a floração volte a ocorrer com vigor na primavera.",
+        "sol": "Ela precisa receber luz indireta pela manhã e sombra à tarde, mas nunca deverá ser exposta diretamente ao sol, para não queimar suas folhas e flores.",
+        "agua": "De acordo com a variação climática, ou ao menos duas vezes por semana, uma frequência menor do que de outras espécies de orquídea.",
+        "imagem": "orquidea-denphal"
+    },
+    {
         "id": 4,
+        "nome": "Laelia",
+        "descricao": "É conhecida no português como 'Lélia'. Elas possuem flores muito atraentes e coloridas, geralmente nas cores rosa ou púrpural. ",
+        "floracao": "Final da primavera até o verão.                     ",
+        "sol": "Em torno de 21 a 25ºC de dia, com uma queda de até 6 a 8ºC de noite.",
+        "agua": "Gostam de secar entre as regas na maioria das vezes, pois secam com muita rapidez.",
+        "imagem": "orquidea-laelia"
+    },
+    {
+        "id": 5,
+        "nome": "Miltonia",
+        "descricao": "Ela é típica de Mata Atlântica.                ",
+        "floracao": "No Brasil é de janeiro a março e dura mais de um mês.         ",
+        "sol": "Gosta de luminiosidade em cerca de 50%.",
+        "agua": "Prefere alta umidade.                                 ",
+        "imagem": "orquidea-miltonia"
+    },
+    {
+        "id": 6,
+        "nome": "Oncidium",
+        "descricao": "As orquídeas de Oncidium estão entre as orquídeas mais diversificadas do mundo!",
+        "floracao": "Elas têm requisitos de água diferentes durante diferentes estágios de seu crescimento, mas uma regra geral é que elas nunca devem estar sobrecarregadas.",
+        "sol": "Quando começam a florescer e dar flores, é importante movê-la para um lugar mais frio, sem a luz solar direta.",
+        "agua": "Essas plantas adoram a umidade, então o ideal é, na verdade, entre 55% e 75%. ",
+        "imagem": "orquidea-oncidium"
+    },
+    {
+        "id": 7,
         "nome": "Paphiopedilum",
         "descricao": "Também é conhecida como 'Sapatinho' por causa do seu formato :)",
         "floracao": "Ocorre uma vez por ano, normalmente no inverno ou em dias mais frios. Suas flores podem durar de 6 a 8 semanas.",
@@ -45,48 +72,21 @@
         "imagem": "orquidea-sapatinho"
     },
     {
-        "id": 5,
-        "nome": "Oncidium Sharry Baby ",
-        "descricao": "Ela é muito conhecida popularmente como 'Chocolate', mas não é por conta de suas cores, mas sim por sua fragrância maravilhosa que lembra muito o chocolate!",
-        "floracao": "Pode ocorrer em qualquer época do ano. Suas flores duram normalmente de 30 a 45 dias.",
-        "sol": "Dia: entre 18 a 27ºC (não deixar passar de no máximo 32ºC); Noite: de 10 a 20ºC. É fundamental se certificar que a temperatura à noite seja sempre um pouco mais fria que a de dia.",
-        "agua": "Felizmente não exige uma umidade muito alta. Mas o ar muito seco possui um efeito negativo no desenvolvimento das orquídeas, ele retarda o crescimento",
-        "imagem": "orquidea-sharry-baby"
-    },
-    {
-        "id": 6,
-        "nome": "Oncidium varicosum",
-        "descricao": "É a espécide de Oncidium mais conhecida no Brasil, também é conhecida como 'Chuva de Ouro'!",
-        "floracao": "Durante a primavera, verão e também no outono. Vai depender da região brasileira que será cultivada. Sua floração dura em média por 30 dias sem murchar e cair as flores.",
-        "sol": "Tem preferência por alta luminosidade ou com sombra moderada.",
-        "agua": "Gostam de ambientes bem úmidos. Por isso no inverno quando a umidade diminui devem ser pulverizadas com água várias vezes durante o dia.",
-        "imagem": "orquidea-oncidium"
-    },
-    {
-        "id": 7,
-        "nome": "Cymbidium",
-        "descricao": "Por ter origem em países como a China, Índia, Sri Lanka, Nepal, Malásia, Filipinas e Austrália, essa flor tem como habitat natural altitudes mais elevadas. Por isso, ela se adapta melhor a regiões com um clima mais frio!",
-        "floracao": "Ocorre predominantemente no inverno.",
-        "sol": "Exigem uma queda de temperatura entre o final do verão e o início de outono para florescer durante o inverno.",
-        "agua": "Regar a planta com água gelada, principalmente à noite, ou adicionar cubos de gelo ao vaso, para tentar simular esta queda de temperatura, durante o outono e inverno",
-        "imagem": "orquidea-cymbidium"
-    },
-    {
         "id": 8,
-        "nome": "Dendrobium",
-        "descricao": "Elas são epífitas, ou seja, crescem em cima das árvores. Por isso, seu nome significa 'planta que vive nas árvores' :)",
-        "floracao": "Inverno até primavera.                                 ",
-        "sol": "Durante o dia: 20 a 32ºC; Durante a noite: 18ºC a 24ºC.",
-        "agua": "Se ela estiver pendurada em uma árvore, você deve regá-la todos os dias com água em abundância, exceto em dias de chuva. Caso contrário, regue quando o substrato estiver seco.",
-        "imagem": "orquidea-Dendrobium"
+        "nome": "Phalaenopsis",
+        "descricao": "Dentre as orquídeas, as phalaenopsis estão entre aquelas em que o cultivo é mais simples!",
+        "floracao": "Em espécies híbridas, você consegue ter 2 ou até mesmo 3 florações em 1 ano.                ",
+        "sol": "Temperatura média ou alta.                  ",
+        "agua": "Regar quando o substrato secar.          ",
+        "imagem": "orquidea-phalaenopsis-amabalis"
     },
     {
         "id": 9,
-        "nome": "Denphal",
-        "descricao": "Seu nome é apenas um apelido que junta os prefixos “Den” e “Phal”, derivados de duas outras espécies: Dendrobium e Phalaenopsis.",
-        "floracao": "Para mantê-la florindo todos os anos, você deverá reduzir drasticamente as suas regas, durante o outono e inverno, para que a floração volte a ocorrer com vigor na primavera.",
-        "sol": "Ela precisa receber luz indireta pela manhã e sombra à tarde, mas nunca deverá ser exposta diretamente ao sol, para não queimar suas folhas e flores.",
-        "agua": "De acordo com a variação climática, ou ao menos duas vezes por semana, uma frequência menor do que de outras espécies de orquídea.",
-        "imagem": "orquidea-denphal"
+        "nome": "Vanda",
+        "descricao": "Ela não necessita de substrato para desenvolver-se. Portanto, pode ser cultivada suspensa com suas raízes livres e soltas no ar!",
+        "floracao": "Ela tem um crescimento lento, demorando a se adaptar às mudanças de ambiente. Pode demorar de 4 a 7 anos, dependendo da espécie ou híbrido.",
+        "sol": "Evite exposição ao vento e local frio, pois ela pode “perder todas as suas folhas e não conseguir florescer novamente”. Ela precisa de bastante iluminação, mas nunca Sol direto, para não queimar.",
+        "agua": "Mantenha-a de maneira a mantê-la bem úmida, como seria encontrada na floresta.",
+        "imagem": "orquidea-vanda"
     }
 ]
