@@ -13,7 +13,7 @@ struct Tutorial: View {
     
     var body: some View {
         
-        NavigationView {
+        GeometryReader { bounds in
             VStack {
                 Button(action: {onBoardingStateFetcher.finishOnBoarding()},
                        label: {
@@ -25,8 +25,9 @@ struct Tutorial: View {
                         .foregroundColor(Color.white)
                         .clipShape(RoundedRectangle(cornerRadius: 13))
                 })
+                    
             }
-            .frame(width: 350, height: 30)
+            .frame(width: bounds.size.width, height: bounds.size.height * 0.3, alignment: .bottom)
             .statusBar(hidden: true)
         }
     }

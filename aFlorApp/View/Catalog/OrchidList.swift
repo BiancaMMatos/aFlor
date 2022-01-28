@@ -11,21 +11,32 @@ struct OrchidList: View {
     
     var orchids:[Orchid] {
         @State var data: [Orchid] = modelData.orchids
-                return data
-        }
+        return data
+    }
     var modelData =  ModelData()
     
     var body: some View {
-        NavigationView {
+        GeometryReader { bounds in
+            NavigationView {
             List(orchids) { orchid in
+                
                 NavigationLink {
                     OrchidDetail(orchid: orchid)
                 } label: {
                     OrchidRow(orchid: orchid)
                 }
+                
             }
+            .frame(width: bounds.size.width, height: bounds.size.height)
+            
             .navigationTitle("Catálogo")
+            
+            .frame(height: 1300)
+            .ignoresSafeArea(.all)
+            }
+            .navigationViewStyle(StackNavigationViewStyle())
         }
+        
     }
 }
 

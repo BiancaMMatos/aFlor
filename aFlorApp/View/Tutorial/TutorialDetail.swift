@@ -19,30 +19,29 @@ struct TutorialDetail: View {
     
     var body: some View {
         
+        GeometryReader { bounds in
             VStack {
-                
-                Spacer()
-                Text("aFlor")
-                    .fontWeight(.heavy)
-                    .font(.system(size: 35))
-                    .frame(width: 100, alignment: .center)
-                    .padding(.top, 90)
-                
-                TutorialRow(tutorial: tutorials[0])
-                TutorialRow(tutorial: tutorials[1])
-                TutorialRow(tutorial: tutorials[2])
+                    
+                    Spacer()
+                    Text("aFlor")
+                        .fontWeight(.heavy)
+                        .font(.system(size: 35))
+                        .frame(width: bounds.size.width, height: bounds.size.height * 0.2, alignment: .center)
+                        .padding(.top, 90)
+                    
+                    TutorialRow(tutorial: tutorials[0])
+                    TutorialRow(tutorial: tutorials[1])
+                    TutorialRow(tutorial: tutorials[2])
 
-                
-                Tutorial(onBoardingStateFetcher: onBoardingStateFetcher)
+                    
+                    Tutorial(onBoardingStateFetcher: onBoardingStateFetcher)
+                    
             }
+            
+        }
+        .frame(height: 1000)
+        .ignoresSafeArea(.all)
     }
     
 }
-
-//struct TutorialDetail_Previews: PreviewProvider {
-//    var onBoardingStateFetcher: OnBoardingStateFetcher
-//    static var previews: some View {
-//        TutorialDetail(onBoardingStateFetcher: onBoardingStateFetcher)
-//    }
-//}
 

@@ -4,7 +4,7 @@
         "nome": "Cattleya",
         "descricao": "Amabilis significa 'encantador', esta orquídea é de origem asiática e habita locais com altitudes superiores à 600 metros!",
         "floracao": "Ocorre nas estações de verão e suas flores chegam a permanecer abertas de 45 até 60 dias. ",
-        "sol": "Apreciam clima quente e úmido, mas preferem sombra.                                   ",
+        "sol": "Apreciam clima quente e úmido, mas preferem sombra.",
         "agua": "3 a 4 vezes por semana na estação do Verão e de 1 a 2 vezes por semana durante o Inverno.",
         "imagem": "orquidea-cattleya-intermediaria"
     },
@@ -12,7 +12,7 @@
         "id": 1,
         "nome": "Cymbidium",
         "descricao": "Por ter origem em países como a China, Índia, Sri Lanka, Nepal, Malásia, Filipinas e Austrália, essa flor tem como habitat natural altitudes mais elevadas. Por isso, ela se adapta melhor a regiões com um clima mais frio!",
-        "floracao": "Ocorre predominantemente no inverno.                    ",
+        "floracao": "Ocorre predominantemente no inverno.",
         "sol": "Exigem uma queda de temperatura entre o final do verão e o início de outono para florescer durante o inverno.",
         "agua": "Regar a planta com água gelada, principalmente à noite, ou adicionar cubos de gelo ao vaso, para tentar simular esta queda de temperatura, durante o outono e inverno.",
         "imagem": "orquidea-cymbidium"
@@ -21,7 +21,7 @@
         "id": 2,
         "nome": "Dendrobium",
         "descricao": "Elas são epífitas, ou seja, crescem em cima das árvores. Por isso, seu nome significa 'planta que vive nas árvores' :)",
-        "floracao": "Inverno até primavera.                                 ",
+        "floracao": "Inverno até primavera.",
         "sol": "Prefere um ponto quente com bom fluxo de ar.Temperatura entre 18ºC - 24ºC.",
         "agua": "Durante o dia: 20 a 32ºC; Durante a noite: 18ºC a 24ºC.",
         "imagem": "orquidea-Dendrobium"
@@ -39,7 +39,7 @@
         "id": 4,
         "nome": "Laelia",
         "descricao": "É conhecida no português como 'Lélia'. Elas possuem flores muito atraentes e coloridas, geralmente nas cores rosa ou púrpural. ",
-        "floracao": "Final da primavera até o verão.                     ",
+        "floracao": "Final da primavera até o verão.",
         "sol": "Em torno de 21 a 25ºC de dia, com uma queda de até 6 a 8ºC de noite.",
         "agua": "Gostam de secar entre as regas na maioria das vezes, pois secam com muita rapidez.",
         "imagem": "orquidea-laelia"
@@ -47,10 +47,10 @@
     {
         "id": 5,
         "nome": "Miltonia",
-        "descricao": "Ela é típica de Mata Atlântica.                ",
-        "floracao": "No Brasil é de janeiro a março e dura mais de um mês.         ",
+        "descricao": "Ela é típica de Mata Atlântica.",
+        "floracao": "No Brasil é de janeiro a março e dura mais de um mês.",
         "sol": "Gosta de luminiosidade em cerca de 50%.",
-        "agua": "Prefere alta umidade.                                 ",
+        "agua": "Prefere alta umidade.",
         "imagem": "orquidea-miltonia"
     },
     {
@@ -75,9 +75,9 @@
         "id": 8,
         "nome": "Phalaenopsis",
         "descricao": "Dentre as orquídeas, as phalaenopsis estão entre aquelas em que o cultivo é mais simples!",
-        "floracao": "Em espécies híbridas, você consegue ter 2 ou até mesmo 3 florações em 1 ano.                ",
-        "sol": "Temperatura média ou alta.                  ",
-        "agua": "Regar quando o substrato secar.          ",
+        "floracao": "Em espécies híbridas, você consegue ter 2 ou até mesmo 3 florações em 1 ano.",
+        "sol": "Temperatura média ou alta.",
+        "agua": "Regar quando o substrato secar.",
         "imagem": "orquidea-phalaenopsis-amabalis"
     },
     {
