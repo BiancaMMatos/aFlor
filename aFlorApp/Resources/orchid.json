@@ -28,33 +28,6 @@
     },
     {
         "id": 3,
-        "nome": "Denphal",
-        "descricao": "Seu nome é apenas um apelido que junta os prefixos “Den” e “Phal”, derivados de duas outras espécies: Dendrobium e Phalaenopsis.",
-        "floracao": "Para mantê-la florindo todos os anos, você deverá reduzir drasticamente as suas regas, durante o outono e inverno, para que a floração volte a ocorrer com vigor na primavera.",
-        "sol": "Ela precisa receber luz indireta pela manhã e sombra à tarde, mas nunca deverá ser exposta diretamente ao sol, para não queimar suas folhas e flores.",
-        "agua": "De acordo com a variação climática, ou ao menos duas vezes por semana, uma frequência menor do que de outras espécies de orquídea.",
-        "imagem": "orquidea-denphal"
-    },
-    {
-        "id": 4,
-        "nome": "Laelia",
-        "descricao": "É conhecida no português como 'Lélia'. Elas possuem flores muito atraentes e coloridas, geralmente nas cores rosa ou púrpural. ",
-        "floracao": "Final da primavera até o verão.",
-        "sol": "Em torno de 21 a 25ºC de dia, com uma queda de até 6 a 8ºC de noite.",
-        "agua": "Gostam de secar entre as regas na maioria das vezes, pois secam com muita rapidez.",
-        "imagem": "orquidea-laelia"
-    },
-    {
-        "id": 5,
-        "nome": "Miltonia",
-        "descricao": "Ela é típica de Mata Atlântica.",
-        "floracao": "No Brasil é de janeiro a março e dura mais de um mês.",
-        "sol": "Gosta de luminiosidade em cerca de 50%.",
-        "agua": "Prefere alta umidade.",
-        "imagem": "orquidea-miltonia"
-    },
-    {
-        "id": 6,
         "nome": "Oncidium",
         "descricao": "As orquídeas de Oncidium estão entre as orquídeas mais diversificadas do mundo!",
         "floracao": "Elas têm requisitos de água diferentes durante diferentes estágios de seu crescimento, mas uma regra geral é que elas nunca devem estar sobrecarregadas.",
@@ -63,7 +36,7 @@
         "imagem": "orquidea-oncidium"
     },
     {
-        "id": 7,
+        "id": 4,
         "nome": "Paphiopedilum",
         "descricao": "Também é conhecida como 'Sapatinho' por causa do seu formato :)",
         "floracao": "Ocorre uma vez por ano, normalmente no inverno ou em dias mais frios. Suas flores podem durar de 6 a 8 semanas.",
@@ -72,7 +45,7 @@
         "imagem": "orquidea-sapatinho"
     },
     {
-        "id": 8,
+        "id": 5,
         "nome": "Phalaenopsis",
         "descricao": "Dentre as orquídeas, as phalaenopsis estão entre aquelas em que o cultivo é mais simples!",
         "floracao": "Em espécies híbridas, você consegue ter 2 ou até mesmo 3 florações em 1 ano.",
@@ -81,7 +54,7 @@
         "imagem": "orquidea-phalaenopsis-amabalis"
     },
     {
-        "id": 9,
+        "id": 6,
         "nome": "Vanda",
         "descricao": "Ela não necessita de substrato para desenvolver-se. Portanto, pode ser cultivada suspensa com suas raízes livres e soltas no ar!",
         "floracao": "Ela tem um crescimento lento, demorando a se adaptar às mudanças de ambiente. Pode demorar de 4 a 7 anos, dependendo da espécie ou híbrido.",
