@@ -2,7 +2,7 @@
     {
         "id": 0,
         "nome": "Cattleya",
-        "descricao": "Amabilis significa 'encantador', esta orquídea é de origem asiática e habita locais com altitudes superiores à 600 metros!",
+        "descricao": "É um gênero de orquídea de flores grandes e vistosas, muito popular, com muitas variedades!",
         "floracao": "Ocorre nas estações de verão e suas flores chegam a permanecer abertas de 45 até 60 dias. ",
         "sol": "Apreciam clima quente e úmido, mas preferem sombra.",
         "agua": "3 a 4 vezes por semana na estação do Verão e de 1 a 2 vezes por semana durante o Inverno.",
@@ -22,8 +22,8 @@
         "nome": "Dendrobium",
         "descricao": "Elas são epífitas, ou seja, crescem em cima das árvores. Por isso, seu nome significa 'planta que vive nas árvores' :)",
         "floracao": "Inverno até primavera.",
-        "sol": "Prefere um ponto quente com bom fluxo de ar.Temperatura entre 18ºC - 24ºC.",
-        "agua": "Durante o dia: 20 a 32ºC; Durante a noite: 18ºC a 24ºC.",
+        "sol": "Durante o dia: 20 a 32ºC; Durante a noite: 18ºC a 24ºC.",
+        "agua": "A dendrobium precisa ser regada duas vezes na semana, mas isso pode variar muito.",
         "imagem": "orquidea-Dendrobium"
     },
     {

@@ -17,19 +17,18 @@ struct TabViewMenu: View {
                     OrchidList()
                         .tabItem {
                             Image(systemName: "book.fill")
-                            Text("Catálogo")
+                            Text("Catálogo".localized())
                         }.tag(0)
                     CameraView()
                         .tabItem {
                             Image(systemName: "camera.fill")
-                            Text("Câmera")
+                            Text("Câmera".localized())
                         }.tag(1).sheet(isPresented: $showModal) {
-                            //TutorialView(onBoardingStateFetcher: )
                         }
                     RecentsView()
                         .tabItem {
                             Image(systemName: "clock.fill")
-                            Text("Recentes")
+                            Text("Recentes".localized())
                         }.tag(2)
                 }
             }

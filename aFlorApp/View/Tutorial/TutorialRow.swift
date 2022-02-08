@@ -19,8 +19,8 @@ struct TutorialRow: View {
           .foregroundColor(Color("AccentColor"))
           .padding()
         VStack(alignment: .leading) {
-            Text(tutorial.categoria).bold()
-            Text(tutorial.descricao)
+            Text(tutorial.categoria.localized()).bold()
+            Text(tutorial.descricao.localized())
             .foregroundColor(.secondary)
             .fixedSize(horizontal: false, vertical: true)
         }

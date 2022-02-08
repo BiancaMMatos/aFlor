@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60AB5A227ADC61B0026BDAC /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60AB5A127ADC61B0026BDAC /* String+Localizable.swift */; };
+		A6214A5527B17AD300C5C9B1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6214A5727B17AD300C5C9B1 /* Localizable.strings */; };
+		A6214A5E27B1AA6200C5C9B1 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6214A5D27B1AA6200C5C9B1 /* Stickers.xcassets */; };
+		A6214A6227B1AA6200C5C9B1 /* aFlorSticker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A6214A5B27B1AA6000C5C9B1 /* aFlorSticker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A6214A6827B1AE3B00C5C9B1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6214A5727B17AD300C5C9B1 /* Localizable.strings */; };
 		A624C21627A230E900CF3F06 /* orchid.json in Resources */ = {isa = PBXBuildFile; fileRef = A624C21527A230E900CF3F06 /* orchid.json */; };
 		A63D67FA2795BBEA0047C2A7 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D67F92795BBEA0047C2A7 /* CameraView.swift */; };
 		A63D6842279603370047C2A7 /* TabViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63D6841279603370047C2A7 /* TabViewMenu.swift */; };
@@ -37,7 +42,37 @@
 		A6F2D926279B7C750076CDE7 /* View+saveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2D925279B7C750076CDE7 /* View+saveImage.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A6214A6027B1AA6200C5C9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A658DEA52791F3740046F75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6214A5A27B1AA6000C5C9B1;
+			remoteInfo = aFlorSticker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6214A6627B1AA6200C5C9B1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A6214A6227B1AA6200C5C9B1 /* aFlorSticker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A60AB5A127ADC61B0026BDAC /* String+Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		A6214A5827B17AD700C5C9B1 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A6214A5B27B1AA6000C5C9B1 /* aFlorSticker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = aFlorSticker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6214A5D27B1AA6200C5C9B1 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		A6214A5F27B1AA6200C5C9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6214A6727B1AE2400C5C9B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A624C21527A230E900CF3F06 /* orchid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = orchid.json; sourceTree = "<group>"; };
 		A63D67F92795BBEA0047C2A7 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		A63D6841279603370047C2A7 /* TabViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMenu.swift; sourceTree = "<group>"; };
@@ -80,10 +115,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6214A5C27B1AA6000C5C9B1 /* aFlorSticker */ = {
+			isa = PBXGroup;
+			children = (
+				A6214A5D27B1AA6200C5C9B1 /* Stickers.xcassets */,
+				A6214A5F27B1AA6200C5C9B1 /* Info.plist */,
+			);
+			path = aFlorSticker;
+			sourceTree = "<group>";
+		};
 		A658DEA42791F3740046F75A = {
 			isa = PBXGroup;
 			children = (
 				A658DEAF2791F3740046F75A /* aFlorApp */,
+				A6214A5C27B1AA6000C5C9B1 /* aFlorSticker */,
 				A658DEAE2791F3740046F75A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				A658DEAD2791F3740046F75A /* aFlor.app */,
+				A6214A5B27B1AA6000C5C9B1 /* aFlorSticker.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +145,7 @@
 		A658DEAF2791F3740046F75A /* aFlorApp */ = {
 			isa = PBXGroup;
 			children = (
+				A6AEFA3927B03EE500B4C4A5 /* Languages */,
 				A6BDCEC027A0356F000C85C2 /* ML */,
 				A6F2D924279B7C200076CDE7 /* Extension */,
 				A6B7833E27983D5E0005A613 /* ViewModel */,
@@ -127,6 +174,14 @@
 				A66344B5279AD2F90054B44C /* TutorialDetail.swift */,
 			);
 			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		A6AEFA3927B03EE500B4C4A5 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				A6214A5727B17AD300C5C9B1 /* Localizable.strings */,
+			);
+			path = Languages;
 			sourceTree = "<group>";
 		};
 		A6B7833E27983D5E0005A613 /* ViewModel */ = {
@@ -223,6 +278,7 @@
 			children = (
 				A6BDCEC327A035FD000C85C2 /* UIImage+resizeImage.swift */,
 				A6F2D925279B7C750076CDE7 /* View+saveImage.swift */,
+				A60AB5A127ADC61B0026BDAC /* String+Localizable.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -230,6 +286,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A6214A5A27B1AA6000C5C9B1 /* aFlorSticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6214A6327B1AA6200C5C9B1 /* Build configuration list for PBXNativeTarget "aFlorSticker" */;
+			buildPhases = (
+				A6214A5927B1AA6000C5C9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aFlorSticker;
+			productName = aFlorSticker;
+			productReference = A6214A5B27B1AA6000C5C9B1 /* aFlorSticker.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		A658DEAC2791F3740046F75A /* aFlor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A658DEBB2791F3750046F75A /* Build configuration list for PBXNativeTarget "aFlor" */;
@@ -237,10 +308,12 @@
 				A658DEA92791F3740046F75A /* Sources */,
 				A658DEAA2791F3740046F75A /* Frameworks */,
 				A658DEAB2791F3740046F75A /* Resources */,
+				A6214A6627B1AA6200C5C9B1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A6214A6127B1AA6200C5C9B1 /* PBXTargetDependency */,
 			);
 			name = aFlor;
 			productName = aFlorApp;
@@ -257,6 +330,9 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					A6214A5A27B1AA6000C5C9B1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					A658DEAC2791F3740046F75A = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -269,6 +345,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = A658DEA42791F3740046F75A;
 			productRefGroup = A658DEAE2791F3740046F75A /* Products */;
@@ -276,11 +353,21 @@
 			projectRoot = "";
 			targets = (
 				A658DEAC2791F3740046F75A /* aFlor */,
+				A6214A5A27B1AA6000C5C9B1 /* aFlorSticker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A6214A5927B1AA6000C5C9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6214A5E27B1AA6200C5C9B1 /* Stickers.xcassets in Resources */,
+				A6214A6827B1AE3B00C5C9B1 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A658DEAB2791F3740046F75A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +376,7 @@
 				A6A42195279A2FDB007A35A0 /* tutorial.json in Resources */,
 				A658DEB82791F3750046F75A /* Preview Assets.xcassets in Resources */,
 				A658DEB52791F3750046F75A /* Assets.xcassets in Resources */,
+				A6214A5527B17AD300C5C9B1 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +406,7 @@
 				A6B7835C279887F00005A613 /* OrchidList.swift in Sources */,
 				A63D6842279603370047C2A7 /* TabViewMenu.swift in Sources */,
 				A6A4218E279A02A0007A35A0 /* OrchidDetailRow.swift in Sources */,
+				A60AB5A227ADC61B0026BDAC /* String+Localizable.swift in Sources */,
 				A6B8161A2799A6ED00E7783C /* ImagePicker.swift in Sources */,
 				A6F2D923279B7B880076CDE7 /* CacheManager.swift in Sources */,
 				A63D684427961A260047C2A7 /* RecentsView.swift in Sources */,
@@ -328,7 +417,67 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A6214A6127B1AA6200C5C9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6214A5A27B1AA6000C5C9B1 /* aFlorSticker */;
+			targetProxy = A6214A6027B1AA6200C5C9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6214A5727B17AD300C5C9B1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6214A5827B17AD700C5C9B1 /* pt-BR */,
+				A6214A6727B1AE2400C5C9B1 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		A6214A6427B1AA6200C5C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ7A9ZQ7BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aFlorSticker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = aFlorSticker;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biancamaciel.aFlorApp.aFlorSticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6214A6527B1AA6200C5C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ7A9ZQ7BD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aFlorSticker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = aFlorSticker;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.biancamaciel.aFlorApp.aFlorSticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A658DEB92791F3750046F75A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,7 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"aFlorApp/Preview Content\"";
 				DEVELOPMENT_TEAM = JJ7A9ZQ7BD;
 				ENABLE_PREVIEWS = YES;
@@ -469,7 +618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.biancamaciel.aFlorApp;
 				PRODUCT_NAME = aFlor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -484,7 +633,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"aFlorApp/Preview Content\"";
 				DEVELOPMENT_TEAM = JJ7A9ZQ7BD;
 				ENABLE_PREVIEWS = YES;
@@ -502,7 +651,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.biancamaciel.aFlorApp;
 				PRODUCT_NAME = aFlor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -514,6 +663,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A6214A6327B1AA6200C5C9B1 /* Build configuration list for PBXNativeTarget "aFlorSticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6214A6427B1AA6200C5C9B1 /* Debug */,
+				A6214A6527B1AA6200C5C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A658DEA82791F3740046F75A /* Build configuration list for PBXProject "aFlor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

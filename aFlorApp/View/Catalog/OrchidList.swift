@@ -29,7 +29,7 @@ struct OrchidList: View {
             }
             .frame(width: bounds.size.width, height: bounds.size.height)
             
-            .navigationTitle("Catálogo")
+            .navigationTitle("Catálogo".localized())
             
             .frame(height: 1300)
             .ignoresSafeArea(.all)

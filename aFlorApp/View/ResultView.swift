@@ -29,7 +29,7 @@ struct ResultView: View {
                         .offset(y:-60)
                     
                     VStack {
-                        Text("Aqui estão os resultados:")
+                        Text("Aqui estão os resultados:".localized())
                             
                             Text(result)
                                 .padding()
@@ -39,31 +39,23 @@ struct ResultView: View {
                     
                     Spacer()
                     
-                    Text("Procure mais sobre o resultado no Catálogo!")
+                    Text("Procure mais sobre o resultado no Catálogo!".localized())
                     Spacer()
                 }
                 else {
-                    Text("Não há imagem para análise.")
+                    Text("Não há imagem para análise.".localized())
                 }
             }
             .toolbar(content: {
                 Button(action: {
                     dismiss()
                 }, label: {
-                    Text("Fechar")
+                    Text("Fechar".localized())
                         .fontWeight(.medium)
                 })
             })
         }
-        
+        .background(Color("modalBackground"))
     }
     
 }
-
-
-
-//struct ResultView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ResultView(classificationLabel: classificationLabel)
-//    }
-//}

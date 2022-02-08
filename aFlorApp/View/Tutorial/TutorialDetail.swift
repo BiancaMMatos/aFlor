@@ -41,6 +41,7 @@ struct TutorialDetail: View {
         }
         .frame(height: 1000)
         .ignoresSafeArea(.all)
+        .background(Color("background"))
     }
     
 }
